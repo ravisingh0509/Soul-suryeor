@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb+srv://newuser1:maxwell%40145@cluster0.a0agupq.mongodb.net/soulSurveyor');
+        await mongoose.connect('mongodb://localhost:27017/soulSurveyor');
         console.log('Connected to MongoDB');
     } catch (err) {
         console.error('Error connecting to MongoDB:', err);
