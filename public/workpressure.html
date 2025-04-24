@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Soul Surveyor - Depression Detection</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="/img/1661448723night-time-meditation.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: 24/7 </small>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>soulsurveyor@gmail.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 1234567890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <h1 class="m-0 text-primary"><i class="fa fa-brain me-2"></i>Soul Surveyor</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0"> 
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Events</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="team.html" class="dropdown-item">Our Doctor Team</a>
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <a href="register.html" class="btn btn-primary py-2 px-4 ms-3">Register</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+                <h1 class="display-3 text-white animated zoomIn">Workpressure</h1>
+                <a href="" class="h4 text-white">Home</a>
+                <i class="far fa-circle text-white px-2"></i>
+                <a href="" class="h4 text-white">Workpressure</a>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!--main-->
+    
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic text-white" >Workpressure Events / Seminars</h1>
+            <p class="lead my-3"></p>
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold"></a></p>
+          </div>
+        </div>
+      
+       
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title mb-4">
+                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Workpressure Event</h5>
+                            <h1 class="display-5 mb-0">The Best Workpressure Solution You will get and Can Trust for free of cost</h1>
+                        </div>
+                        <h4 class="text-body fst-italic mb-4">We Provide Seminar for workpressure control, We examine user's mental health for the detecting the level of depression of User.</h4>
+                        <p class="mb-4">Aim- Our aim is to provide the curation for workpressure of depressed people. People can attend the seminar for recovering from mild depression and know can be able to examine self by listening to seminar and can also explore much about self.   <br> We will examine the the reports If person having mild/medium Depression So User can cure by attending the Seminar, and if user having Severe Depression then they must further processed by Psychiatrist . </p>
+                        <div class="row g-3">
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-success me-3"></i>Best Depression Cure</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-success me-3"></i>Events for Depression</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-success me-3"></i>24/7 Opened</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-success me-3"></i>Free Of Cost </h5>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Book Seat</a>
+                    </div>
+                    <div class="col-lg-5" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="/img/wpress.jpg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row g-5">
+          <div class="col-md-12">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                What is workpressure?
+                <br>The workforce is tired. While sustainable job performance requires us to thrive at work, only 32% of employees across the globe say they’re thriving. With 43% reporting high levels of daily stress, it’s no surprise that a wealth of employees feel like they’re on the edge of burnout, with some reports suggesting that up to 61% of U.S. professionals feel like they’re burning out at any moment in time.  Those who feel tense or stressed out during the workday are more than three times as likely to seek employment elsewhere.
+            </h3>
+      
+            <article class="blog-post">
+              <h2 class="blog-post-title"></h2>
+              What are stages to recover from Workpressure:<br>
+              <br><br>
+              1. Detach psychologically from work
+              “It sounds silly, but after a long, intense surgery, what I do to relax is play some video games to disconnect before I go home,” described an orthopedic surgeon participating in an executive class on stress management. Regardless of your preferred recovery activity (reading, running, video games, cooking, etc.), it’s important that you mentally disconnect or “switch off” your thoughts of work (or the particular stressor at hand). Workday stress accumulates throughout the day, meaning that we ruminate about work well into the evening. You may be physically present at an exercise class, but your mind is replaying the events of an earlier client meeting. Research shows that even thinking about work detracts from your ability to recover from it, and the mere presence of your mobile phone distracts you, leaving you unable to detach from “the office.”
+              <br><br>  2. Harness the power of micro-breaks during the workday.
+              “During the work week, I set my phone alarm to ring once every two hours as a needed reminder to step away from my computer, stretch, walk around, and get a drink of water,” an EVP of a multinational technology company recounted. Contrary to common assumptions that recovery can only happen after work or during a long holiday, research shows that micro-breaks — short breaks of approximately 10 minutes — taken during the workday are surprisingly effective for recovering from daily work stress and various job demands. For example, short moments of meditation or relaxing, taking time to eat a nutritious snack, enjoyable social interactions, or activities that require some degree of cognitive attention (such as reading) are strategies that can improve motivation and concentration, shape your mood, and sustain your energy during the day. Also, taking longer breaks in combination with more frequent short breaks can provide more energy, motivation, and concentration than infrequent short breaks. Interestingly, micro-breaks taken earlier in the workday contribute to greater recovery.
+              <br><br>3. Consider your preference for recovery activity.
+             Although having a choice over your recovery activity sounds like common sense, this experience, described by the CFO of a global events company, highlights the challenges of applying this principle. Perhaps you’ve felt pressured into going to a group exercise class, or maybe your company organized a group wellness activity during the weekend when you really just wanted to be at home with your family.
+    
+             <br><br> 4. Prioritize high-effort recovery activities.
+             “I may not be rah-rah about it ahead of time, but there has never been a gym session I’ve regretted afterwards,” proclaimed a senior executive of a multinational health care company. While it may seem that relaxing, watching TV, or other “passive” or “low-effort” activities are best for recovery, on the contrary, research shows that more active activities can be even more effective for recovery. If you don’t enjoy going to the gym or playing team sports, find a type of exercise that you do enjoy, such as a fast walk, a hike, or a swim.
+    
+    
+    
+    
+    
+             <!-- Newsletter Start -->
+    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
+        <div class="container">
+            <div class="bg-primary p-5">
+                <form class="mx-auto" style="max-width: 600px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <button class="btn btn-dark px-4"><a href="register.html">Register Here</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="events.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Events</a>
+                      
+                        <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="appointment.html"><i class="bi bi-arrow-right text-primary me-2"></i>Appointment</a>
+                        <a class="text-light mb-2" href="testimonial.html"><i class="bi bi-arrow-right text-primary me-2"></i>Testimonial</a>
+                        <a class="text-light mb-2" href="team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Team</a>
+                      
+                        <a class="text-light" href="price.html"><i class="bi bi-arrow-right text-primary me-2"></i>Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Shyamnarayan Marg,Thakur Village,Kandivali(E),Mumbai-400101</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>soulsurveyor@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 1234567890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light py-4" style="background: #051225;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">Soul Surveyor</a>. All Rights Reserved.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/maincss.js"></script>
+</body>
+
+</html>
