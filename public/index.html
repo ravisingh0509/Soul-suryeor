@@ -284,7 +284,7 @@
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
                         data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Make Appointment with Psychiatrist</h1>
-                        <form onSubmit="return redirect()" class="" action="/appointment" method="POST"
+                        <form class="" action="/appointment" method="POST"
                             enctype="application/x-www-form-urlencoded">
                             <select required name="appointmentIssue"
                                 class="col-12 col-sm-6 form-select bg-light border-0 mb-2" style="height: 55px;">
@@ -404,10 +404,11 @@
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
                         data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book Seat for an Event</h1>
-                        <form onSubmit="return redirect()">
+                        <form onSubmit="" action="/events" method="POST"
+                              enctype="application/x-www-form-urlencoded">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                    <select name="depressionCategory" class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Depressed Category </option>
                                         <option value="1">Mild Depressed</option>
                                         <option value="2">Medium Depressed</option>
@@ -415,7 +416,7 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                    <select name="eventName" class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Book Seat for Event</option>
                                         <option value="1">Meditation</option>
                                         <option value="2">Work Pressure Management</option>
@@ -426,23 +427,23 @@
 
 
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
+                                    <input type="text" name="eventClientName" class="form-control bg-light border-0" placeholder="Your Name"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
+                                    <input name="eventClientEmail" type="email" class="form-control bg-light border-0" placeholder="Your Email"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                                        <input name="eventDate" type="text" class="form-control bg-light border-0 datetimepicker-input"
                                             placeholder="Appointment Date" data-target="#date1"
                                             data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time1" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                                        <input name="eventTime" type="text" class="form-control bg-light border-0 datetimepicker-input"
                                             placeholder="Appointment Time" data-target="#time1"
                                             data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
